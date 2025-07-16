@@ -1,0 +1,146 @@
+<!-- Code by Taransh Goyal-->
+
+<!DOCTYPE html>
+
+<head>
+  <!-- Setting the title of the page -->
+  <Title> Calculator</Title>
+</head>
+
+
+<body>
+  <!--Adding text to be displayed above the buttons-->
+  <p>
+    Calculator
+  </p>
+  
+  
+  <!--First row of buttons-->
+  <p>
+  
+  <!-- the '1' button -->
+  <button onclick="
+    calculation += '1'
+    console.log(calculation);
+    "> 1</button>
+
+  <!-- the '2' button -->
+  <button onclick="
+    calculation += '2'
+    console.log(calculation);
+    "> 2</button>
+  
+  <!-- the '3' button -->
+  <button onclick="
+    calculation += '3'
+    console.log(calculation);
+    "> 3</button>
+  
+  <!-- the '+' button for addition -->
+  <button onclick="
+    calculation += ' + '
+    console.log(calculation);
+    "> +</button>
+  </p>
+
+  <!-- Second row of buttons-->
+  <p>
+    <!-- the '4' button -->
+    <button onclick="
+    calculation += '4'
+    console.log(calculation);
+    "> 4</button>
+
+    <!-- the '5' button -->
+    <button onclick="
+    calculation += '5'
+    console.log(calculation);
+    "> 5</button>
+
+    <!-- the '6' button -->
+    <button onclick="
+    calculation += '6'
+    console.log(calculation);
+    "> 6</button>
+
+    <!-- the '-' button for subtraction -->
+    <button onclick="
+    calculation += ' - '
+    console.log(calculation);
+    "> -</button>
+  </p>
+
+  <!-- Third row of buttons -->
+  <p>
+
+    <!-- the '7' button -->
+    <button onclick="
+    calculation += '7'
+    console.log(calculation);
+    "> 7</button>
+
+    <!-- the '8' button -->
+    <button onclick="
+    calculation += '8'
+    console.log(calculation);
+    "> 8</button>
+
+    <!-- the '9' button -->
+    <button onclick="
+    calculation += '9'
+    console.log(calculation);
+    "> 9</button>
+
+    <!-- the '*' button for multiplication -->
+    <button onclick="
+    calculation += ' * '
+    console.log(calculation);
+    "> *</button>
+  </p>
+
+  <!-- the 4th row of buttons -->
+  <p>
+
+    <!-- the '0' button -->
+    <button onclick="
+    calculation += '0'
+    console.log(calculation);
+    "> 0</button>
+
+    <!-- the '.' button for adding a decimal point-->
+    <button onclick="
+    calculation += '.'
+    console.log(calculation);
+    "> .</button>
+
+    <!-- the '=' button -->
+    <button onclick="
+      calculation = eval(calculation);
+      console.log(calculation);
+    "> = </button>
+
+    <!-- the '/' button for division -->
+    <button onclick="
+    calculation += ' / '
+    console.log(calculation);
+    "> /</button>
+  
+  <!-- the 5th row of buttons -->
+  </p>
+
+  <!-- the 'clear' button -->
+  <p>
+    <button onclick="
+    calculation = '';
+    console.log('Cleared.');
+    "> Clear</button>
+  </p>
+
+  <!-- The java script code-->
+  <script>
+    // Declaring the variable for storing the calculation
+    let calculation = '';
+  </script>
+</body>
+
+<!-- Thanks for reading my code :) -->
